@@ -7,8 +7,6 @@
 }
 
 body {
-  width: 1920px;
-  margin: 0 auto;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
 }
@@ -175,9 +173,37 @@ body {
 }
 
 .header-links .nav-list-item a {
- font-weight: 500;
- font-size: 18px;
- line-height: 21px;
- text-transform: uppercase;
- color: #4A4D4A;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #4A4D4A;
 }
+
+.shop-info {
+   margin-left: 42px;
+}
+
+.shop-info-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #4A4D4A;
+}
+
+.shop-info-title span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+  color: #FFAF37;
+}
+
+.shop-info-desc {
+  width: 922px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4A4D4A;
+}
+
