@@ -1,0 +1,25 @@
+.category {
+    width: 324px;
+    padding-top: 18px;
+    padding-bottom: 33px;
+    padding-left: 9px;
+    padding-right: 18px;
+    border: 1px solid #F0F0FF;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.category-img {
+    margin-bottom: 22.1px;
+    
+}
+.category-img img {
+    height: 187px;
+}
+
+.category-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+}

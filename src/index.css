@@ -389,3 +389,17 @@ body {
 .cbc-full-item:nth-child(2) .full-item-subtitle {
   width: 251px;
  }
+
+ .cbc-full-item:nth-child(2) .info-about-link {
+  width: 268px;
+ }
+
+ .cbc-top {
+    margin-top: 100px;
+ }
+
+ .cbc-top .container {
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 30px;
+ }
