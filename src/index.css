@@ -316,3 +316,76 @@ body {
   text-align: center;
   color: #4A4D4A;
 }
+
+.direct-deliveries {
+  width: 665px;
+  padding-top: 22.88px;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #F0F0FF;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.direct-deliveries-title {
+    margin-top: 6.32px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    color: #4A4D4A;
+}
+
+.direct-deliveries-logos {
+    margin-top: 75px;
+    list-style-type: none;
+}
+
+.cbc-full {
+  margin-top: 129px;
+}
+.cbc-full .container {
+  gap: 20px;
+}
+
+.cbc-full-item {
+   width: 690px;
+   padding-top: 29px;
+   padding-left: 15px;
+   padding-right: 43px;
+   background-color: #F0F0FF;
+}
+
+.full-item-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 122%;
+  color: #4A4D4A;
+  text-align: right;
+}
+
+.full-item-subtitle {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4A4D4A;
+}
+
+.cbc-full-item:nth-child(1) .full-item-title {
+   width: 322px;
+   margin-left: 317px;
+}
+
+.cbc-full-item:nth-child(2) .full-item-title {
+  width: 226px;
+  margin-left: 275px;
+}
+
+.cbc-full-item:nth-child(1) .full-item-subtitle {
+  width: 292px;
+}
+
+.cbc-full-item:nth-child(2) .full-item-subtitle {
+  width: 251px;
+ }
