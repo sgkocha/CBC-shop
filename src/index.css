@@ -9,6 +9,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
+  margin-bottom: 100px;
 }
 
 .container {
@@ -403,3 +404,167 @@ body {
     gap: 30px;
     row-gap: 30px;
  }
+
+ .all-categories {
+   width: 324px;
+   height: 268px;
+   padding-top: 88px;
+   padding-bottom: 89px;
+   padding-left: 24px;
+   padding-right: 23px; 
+   border: 1px solid #F0F0FF;
+   box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.25);
+ }
+
+ .all-categories a {
+    display: block;
+    width: 283px;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    background-color: #ffa500;
+    border: 1px solid #ffa500;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 122%;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.all-categories img {
+  display: block;
+  margin-top: 70px;
+  margin-left: 236px;
+}
+
+.cbc-full-more {
+  margin-top: 100px;
+}
+
+.cbc-full-more .container {
+  gap: 30px;
+}
+
+.cbc-full-more .cbc-full-item:nth-child(1) .full-item-title {
+    width: 520px;
+    margin-left: 136px;
+}
+
+.cbc-full-more .cbc-full-item:nth-child(1) .full-item-subtitle {
+    width: 400px;
+}
+
+.cbc-full-more .cbc-full-item:nth-child(2) .full-item-title {
+  width: 269px;
+  margin-left: 305px;
+}
+
+.cbc-full-more .cbc-full-item:nth-child(2) .full-item-subtitle {
+  width: 263px;
+}
+
+.cbc-service {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 51px; 
+  background: #F0F0FF;
+}
+
+.cbc-service .container {
+  justify-content: space-around;
+}
+
+.cbc-service-title {
+  width: 487px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 122%;
+  color: #4A4D4A;
+}
+
+.cbc-service-subtitle {
+  width: 383px;
+  margin-top: 18px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4A4D4A;
+}
+
+.cbc-service-more {
+  display: block;
+  width: 464px;
+  margin-top: 18px;
+  padding-top: 19px;
+  padding-bottom: 18px;
+  padding-right: 48px;
+  background: url("../public/images/arrow1.png") no-repeat 95%;
+  border: 2px solid #FFAF37;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4A4D4A;
+}
+
+.cbc-consultation {
+   margin-top: 100px;
+}
+
+.cbc-consultation-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #4A4D4A;
+  text-align: center;
+}
+
+.cbc-consultation-subtitle {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 122%;
+  color: #4A4D4A;
+  text-align: center;
+}
+
+.cbc-consultation-box {
+   justify-content: space-around;
+   margin-top: 30px;
+   padding-left: 90px;
+   padding-right: 115px;
+   box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.25);
+}
+
+.cbc-consultation-fm input {
+   width: 330px; 
+   display: block;
+   margin-bottom: 32px;
+   padding-top: 26px;
+   padding-bottom: 30px;
+   padding-left: 15px;
+   border: 1px solid #4A4D4A;
+   outline: none;
+   font-size: 14px;
+   line-height: 149.3%;
+   color: #4A4D4A;
+}
+
+.cbc-consultation-fm input::placeholder {
+  color: #4A4D4A;
+} 
+
+.cbc-consultation-fm button {
+  width: 330px;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  background: #FFAF37;
+  border: 1px solid #FFAF37;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
