@@ -568,3 +568,69 @@ body {
   color: #FFFFFF;
   cursor: pointer;
 }
+
+.cbc-location {
+   margin-top: 100px;
+   padding-top: 51px;
+   padding-bottom: 53.06px;
+}
+
+.cbc-location .container {
+  border: 6px solid #1F347B;
+  border-radius: 20px;
+}
+
+.cbc-location-title {
+  width: 421px;
+  margin: 10px auto;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 123.4%;
+  text-align: center;
+  color: #4A4D4A;
+}
+
+.cbc-location-box {
+  justify-content: space-around;
+  margin-top: 12px;
+}
+
+.cbc-location-list {
+    list-style-type: none;
+}
+
+.location-list-item {
+  margin-top: 18px;
+  padding-left: 34px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4A4D4A
+}
+
+.location-list-item:nth-child(1) {
+  background: url("../public/images/location.png") no-repeat;
+}
+
+.location-list-item:nth-child(2) {
+  background: url("../public/images/phone.png") no-repeat;
+}
+
+.location-list-item:nth-child(3) {
+   background: url("../public/images/email.png") no-repeat;
+   line-height: 19px;
+}
+
+.location-list-item:nth-child(4) {
+  background: url("../public/images/whatsapp.png") no-repeat;
+}
+
+.location-list-item:nth-child(5), .location-list-item:nth-child(6) {
+  background: url("../public/images/hours.png") no-repeat;
+}
+
+.cbc-location-map {
+  box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}

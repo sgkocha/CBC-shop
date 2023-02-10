@@ -165,6 +165,26 @@ const Main = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="cbc-location">
+          <div className="container">
+            <div className="cbc-location-title">CBC computer store near you in Newark</div>
+            <div className="cbc-location-box d-f align-center">
+              <div className="cbc-location-info">
+                <ul className="cbc-location-list">
+                  <li className="location-list-item">Newark, Harrison Ave</li>
+                  <li className="location-list-item">+1 643 723-09-69</li>
+                  <li className="location-list-item">mail@yahoo.com</li>
+                  <li className="location-list-item">Write to us on WhatsApp</li>
+                  <li className="location-list-item">Mon - Thu: from 9:00 to 19:00 Fri: from 9:00 to 17:00</li>
+                  <li className="location-list-item">Sat - Sun: we accept online orders</li>
+                </ul>
+              </div>
+              <div className="cbc-location-map"><img src="images/map.png" alt="map" /></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
