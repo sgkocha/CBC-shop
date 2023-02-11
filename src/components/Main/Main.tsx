@@ -152,7 +152,6 @@ const Main = () => {
           <div className="container">
             <div className="cbc-consultation-title">Need advice on choosing computer equipment?</div>
             <div className="cbc-consultation-subtitle">Do you have any questions? Submit it in the form below:</div>
-
             <div className="cbc-consultation-box d-f align-center">
               <div className="cbc-consultation-img"><img src="images/consultation.png" alt="consultation" /></div>
               <form className="cbc-consultation-fm">
