@@ -1,0 +1,48 @@
+.service-prices-item {
+    width: 330px;
+    height: 252px;
+    padding-top: 44px;
+    padding-bottom: 31px;
+    padding-left: 19px;
+    padding-right: 8px;
+    border: 1px solid #F0F0FF;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
+}
+
+.prices-item-caption{
+    gap: 18px;
+}
+
+.prices-item-img img {
+    width: 142px;
+    height: 122px;
+}
+
+.prices-item-title {
+    width: 140px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A4D4A;
+    flex-grow: 0;
+}
+
+.prices-item-price {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F347B;
+}
+
+.prices-item-action {
+    margin-top: 24px;
+    gap: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+}
+

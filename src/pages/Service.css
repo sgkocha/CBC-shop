@@ -1,0 +1,89 @@
+.service-info-wrap {
+    position: relative;
+}
+
+.service-info-mask {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: url("/public/images/mask1.png") no-repeat;
+    opacity: 0.8;
+    z-index: -10;
+}
+
+.service-info-about {
+    background: url("/public/images/service-center.png") no-repeat;
+    padding-left: 274px;
+}
+
+.service-about-desc {
+    margin-left: 20px;
+}
+
+.service-about-subdesc {
+    width: 568.61px;
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.service-prices {
+    margin-top: 100px;
+}
+
+.service-prices .container {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-renovated {
+    margin-top: 100px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: #F0F0FF;
+}
+
+.service-renovated .container {
+    justify-content: space-around;
+}
+
+.service-renovated-title {
+    width: 379px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.service-renovated-subtitle {
+    width: 475px;
+    margin: 18px auto;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.service-renovated-btn {
+    display: block;
+    width: 266px;
+    margin: 16px auto;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background: #FFAF37;
+    border: 1px solid #FFAF37;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
