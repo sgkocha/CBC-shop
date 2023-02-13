@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./CatalogLinks.css"
 
 const CatalogLinks = () => {
@@ -28,7 +29,9 @@ const CatalogLinks = () => {
             </li>
             <li className="links-list-item d-f jc-sb">
                 <span>Smartphones, tablets  and accessories</span> 
-                <img src="images/arrow-right.png" alt="arrow-right" />
+                <Link to={"catalog"}>
+                    <img src="images/arrow-right.png" alt="arrow-right" />
+                </Link>
             </li>
             <li className="links-list-item d-f jc-sb">
                 <span>TVs, audio video technique and accessories</span> 
