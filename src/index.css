@@ -651,3 +651,19 @@ body {
   gap: 50px;
   flex-wrap: wrap; 
 } 
+
+.product-see-more {
+  display: block;
+  width: 999px;
+  margin-top: 30px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  background: #FFFFFF url("../public/images/more.png") no-repeat 44%;
+  border: 0.4px solid #4A4D4A;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4A4D4A;
+  cursor: pointer;
+}
+

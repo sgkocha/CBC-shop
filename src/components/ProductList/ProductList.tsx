@@ -4,7 +4,6 @@ import ProductListItem from '../ProductListItem/ProductListItem'
 const ProductList = () => {
     
   return (
-
    <div className="product-list d-f">              
       <ProductListItem 
             image='images/product1.png'
@@ -130,6 +129,7 @@ const ProductList = () => {
             vendor={1419381}
             price = {1477} 
         />
+        <button className="product-see-more">See more</button>
    </div>
   )
 }
