@@ -1,0 +1,151 @@
+.complex-info-about {
+    background: url("/public/images/complex.png") no-repeat;
+    padding-left: 345px;
+}
+
+.complex-about-desc {
+    width: 424px;
+}
+
+.complex-about-subdesc {
+    width: 606px;
+}
+
+.complex-delivery-info {
+    margin-top: 100px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    background: #F0F0FF;
+}
+
+.delivery-info-caption {
+    gap: 34px;
+    margin-bottom: 25px;
+    margin-left: 109px;
+}
+
+.delivery-info-title {
+    width: 394px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background: url("/public/images/delivery-logo.png") no-repeat;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #FFAF37;
+}
+
+.delivery-info-subtitle {
+    width: 529px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.complex-delivery-info h4 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.complex-delivery-info p {
+    width: 382px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+}
+
+.complex-delivery-info p span {
+    color: #FFAF37;
+}
+
+.cbc-supplies {
+    margin-top: 129px;
+}
+
+.cbc-supplies-title {
+    width: 666px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+} 
+
+.cbc-supplies-box {
+    margin-top: 30px;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.cbc-supplies-item {
+    width: 451px;
+}
+
+.cbc-supplies-item:nth-child(1) {
+    background: url("/public/images/supplies1.png") no-repeat;
+    height: 287px;
+    padding-top: 22px;
+    padding-left: 266px;
+    padding-right: 25px;
+}
+
+.cbc-supplies-item:nth-child(2) {
+    background: url("/public/images/supplies2.png") no-repeat;
+    height: 253px;
+}
+
+.cbc-supplies-item:nth-child(3) {
+    background: url("/public/images/supplies3.png") no-repeat;
+    height: 287px;
+    padding-top: 22px;
+    padding-left: 187px;
+    padding-right: 24px;
+}
+
+.cbc-supplies-item:nth-child(4) {
+    background: url("/public/images/supplies4.png") no-repeat;
+    height: 236px;
+    padding-top: 22px;
+    padding-left: 117px;
+    padding-right: 24px;
+}
+
+.cbc-supplies-item:nth-child(5) {
+    margin-top: -33px;
+    background: url("/public/images/supplies5.png") no-repeat;
+    height: 270px;
+    padding-top: 156px;
+    padding-left: 73px;
+    padding-right: 74px;
+}
+
+.cbc-supplies-item:nth-child(6) {
+    background: url("/public/images/supplies6.png") no-repeat;
+    height: 236px;
+    padding-top: 16px;
+    padding-left: 18px;
+}
+
+.supplies-item-title {
+    width: fit-content;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: -1px 4px 11px rgba(0,0,0,0.6);
+}
+
+.cbc-supplies-item:nth-child(5) .supplies-item-title, .cbc-supplies-item:nth-child(6) .supplies-item-title {
+    width: 303px;
+}  
+ 

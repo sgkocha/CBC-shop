@@ -1,6 +1,7 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
 import Catalog from '../../pages/Catalog';
+import ComplexDelivery from '../../pages/ComplexDelivery';
 import Home from "../../pages/Home";
 import Service from '../../pages/Service';
 
@@ -21,6 +22,11 @@ const Main = () => {
         path='catalog'
         element={<Catalog/>} 
       />
+      <Route
+        path='complex'
+        element={<ComplexDelivery/>} 
+      />
+
     </Routes>
   )
 }
