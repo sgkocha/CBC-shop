@@ -1,5 +1,7 @@
 import React from 'react'
 import CatalogLinks from '../components/CatalogLinks/CatalogLinks'
+import DeliveryProducts from '../components/DeliveryProducts/DeliveryProducts'
+import ProductList from '../components/ProductList/ProductList'
 import "./ComplexDelivery.css"
 
 const ComplexDelivery = () => {
@@ -44,7 +46,8 @@ const ComplexDelivery = () => {
                             <div><img src="images/group3.png" alt="group3" /></div>
                             <div><img src="images/group4.png" alt="group4" /></div>
                             <p>
-                                <span>We know perfectly well</span> which equipment to choose depending on your needs and needs and how it should work and are
+                                <span>We know perfectly well</span> which equipment to choose depending on your needs and needs
+                                and how it should work and are
                                 ready to provide a comprehensive approach for you: from recommendations to equipment supply and testing.
                             </p>
                         </div>
@@ -75,6 +78,60 @@ const ComplexDelivery = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <div className="cbc-request">
+                    <div className="container d-f align-center">
+                        <div className="cbc-request-about">
+                            <div className="cbc-request-title">Opening a new office or expanding?</div>
+                            <div className="cbc-request-subtitle">We provide computers and peripherals according to your requirements.
+                                Your trusted supplier in Newark. We are located in Newark on Harrison Ave.
+                            </div>
+                            <button className="cbc-request-btn">leave a request</button>
+                        </div>
+
+                        <div className="cbc-request-img">
+                            <img src="images/cbc-request1.png" alt="cbc-request1" />
+                            <img src="images/cbc-request2.png" alt="cbc-request2" />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <DeliveryProducts
+                    title='Monitors'
+                    bgcolor='transparent'
+                    titleLogo='images/deliveryProduct1.png'
+                />
+                <DeliveryProducts
+                    title='Printers and MFPs'
+                    bgcolor=' #F0F0FF'
+                    titleLogo='images/deliveryProduct2.png'
+                />
+                <DeliveryProducts
+                    title='Keyboard and mouse'
+                    bgcolor='transparent'
+                    titleLogo='images/deliveryProduct3.png'
+                />
+                <DeliveryProducts
+                    title='Headphones, speakers'
+                    bgcolor=' #F0F0FF'
+                    titleLogo='images/deliveryProduct4.png'
+                />
+                <DeliveryProducts
+                    title='Office furniture, stationery (paper, pens, mugs)'
+                    bgcolor='transparent'
+                    titleLogo='images/deliveryProduct5.png'
+                />
+                <DeliveryProducts
+                    title='Coffee'
+                    bgcolor=' #F0F0FF'
+                    titleLogo='images/deliveryProduct6.png'
+                />
+
+
+
             </section>
         </main>
     )

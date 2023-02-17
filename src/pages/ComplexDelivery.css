@@ -148,4 +148,57 @@
 .cbc-supplies-item:nth-child(5) .supplies-item-title, .cbc-supplies-item:nth-child(6) .supplies-item-title {
     width: 303px;
 }  
- 
+
+.cbc-request {
+    margin-top: 100px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    background-color: #F0F0FF;
+}
+
+.cbc-request .container {
+    justify-content: space-around;
+}
+
+.cbc-request-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.cbc-request-subtitle {
+    width: 467px;
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.cbc-request-btn {
+    display: block;
+    width: 290px;
+    margin: 18px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #FFAF37;
+    border: 1px solid #FFAF37;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cbc-request-btn:hover {
+    background: #FFF;
+    border: 1px solid #FFF;
+    color: #FFAF37;
+}
+
+.cbc-request-img img:last-child {
+    margin-left: -80px;
+}
