@@ -1,0 +1,89 @@
+.commissioning-about {
+    gap: 50px;
+}
+
+.commissioning-info {
+    margin-top: 98px;
+}
+
+.commissioning-info-about {
+    background: url("/public/images/commissioning.png") no-repeat;
+    padding-left: 316px;
+    padding-top: 152px;
+}
+
+.commissioning-info-about h3 {
+    width: 573px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: right;
+}
+
+.commissioning-info-about .info-about-desc {
+    width: 518px;
+    margin-left: 75px;
+    margin-top: 18px;
+}
+
+.commissioning-purchase {
+    margin-top: 80px;
+}
+
+.commissioning-purchase span {
+    color: #FFAF37;;
+}
+
+.commissioning-purchase-caption {
+    width: fit-content;
+    margin: 0 auto;
+    gap: 6px;
+}
+
+.commissioning-purchase-title {
+    width: 920px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.commissioning-purchase p {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.commissioning-purchase p:first-child {
+    width: 392px;
+} 
+
+.commissioning-purchase p:last-child {
+    width: 439px;
+}
+
+.commissioning-purchase-box {
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.cbc-tasks {
+    margin-top: 100px;
+    background: #F0F0FF;
+    padding-top: 18px;
+    padding-bottom: 35px;
+}
+
+.cbc-tasks-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    color: #4A4D4A;
+}
+
+.cbc-tasks-box {
+    margin-top: 30px;
+    gap: 30px
+}

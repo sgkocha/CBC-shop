@@ -47,7 +47,7 @@ const Header = () => {
                     <nav>
                         <ul className="nav-list d-f jc-sb">
                             <li className="nav-list-item"> <Link to={"complex"}>Complex delivery</Link></li>
-                            <li className="nav-list-item"><a href="#">Commissioning IT equipment</a></li>
+                            <li className="nav-list-item"><Link to={"commissioning"}>Commissioning IT equipment</Link></li>
                             <li className="nav-list-item"><a href="#">Audit and optimization print park</a></li>
                             <li className="nav-list-item"><a href="#">Tenders</a></li>
                         </ul>
