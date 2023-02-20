@@ -1,5 +1,6 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
+import Audit from '../../pages/Audit';
 import Catalog from '../../pages/Catalog';
 import Commissioning from '../../pages/Commissioning';
 import ComplexDelivery from '../../pages/ComplexDelivery';
@@ -30,6 +31,10 @@ const Main = () => {
       <Route
         path='commissioning'
         element={<Commissioning/>}
+      />
+      <Route
+        path='audit'
+        element={<Audit/>}
       />
 
     </Routes>

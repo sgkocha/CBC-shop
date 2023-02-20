@@ -1,0 +1,158 @@
+.audit-info-about {
+    background: url("/public/images/audit.png") no-repeat;
+    padding-left: 436px;
+
+}
+
+.audit-info-about h3 {
+    width: 411px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.audit-info-about .info-about-desc {
+    width: 318px;
+    margin-top: 18px;
+    margin-left: 92px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.audit-info-about .info-about-link {
+    margin-left: 82px;
+}
+
+.audit-plan {
+    margin-top: 100px;
+    padding-top: 17px;
+    padding-bottom: 22px;
+    background: #F0F0FF;
+}
+
+.audit-plan-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.audit-plan-box {
+    margin-top: 38px;
+    justify-content: space-around;
+}
+
+.cbc-optimization {
+    margin-top: 100px;
+}
+
+.cbc-optimization-caption {
+    width: 693px;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.cbc-optimization-title {
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.cbc-optimization-box {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    row-gap: 26px;
+}
+
+.cbc-optimization-item {
+    padding: 14px;
+    box-shadow: 0px 0px 28px #F0F0FF;
+    border-radius: 10px;
+}
+
+.cbc-optimization-item:nth-child(1) {
+    width: 366px;
+    background: #F0F0FF;
+    border: 1px solid #F0F0FF;
+}
+
+.cbc-optimization-item:nth-child(2) {
+    width: 980px;
+    margin-left: 62px;
+    background: #F0F0F0;
+    border: 1px solid #F0F0F0;
+}
+
+.cbc-optimization-item:nth-child(3) {
+    width: 689px;
+    background: #FFF9DC;
+    border: 1px solid #FFF9DC;
+}
+
+.cbc-optimization-item:nth-child(4) {
+    width: 330px;
+    margin-left: 31px;
+    padding-top: 25px;
+    background: #E3E1FF;
+    border: 1px solid #E3E1FF;
+    text-align: center;
+}
+
+.optimization-item-caption {
+    gap: 6px;
+}
+
+.optimization-item-num {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFAF37;
+}
+
+.optimization-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #4A4D4A;
+}
+
+.cbc-optimization-item p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.3%;
+    color: #4A4D4A;
+}
+
+.optimization-item-profit {
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFAF37;
+}
+
+.cbc-optimization-btn {
+    display: block;
+    width: 329px;
+    margin-left: 28px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background: #FFAF37;
+    border: 1px solid #FFAF37;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
