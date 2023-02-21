@@ -6,6 +6,7 @@ import Commissioning from '../../pages/Commissioning';
 import ComplexDelivery from '../../pages/ComplexDelivery';
 import Home from "../../pages/Home";
 import Service from '../../pages/Service';
+import Tenders from '../../pages/Tenders';
 
 
 
@@ -36,6 +37,11 @@ const Main = () => {
         path='audit'
         element={<Audit/>}
       />
+      <Route
+        path='tenders'
+        element={<Tenders/>}
+      />
+    
 
     </Routes>
   )

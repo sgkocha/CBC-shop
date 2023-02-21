@@ -1,0 +1,191 @@
+.tenders-about {
+    margin-top: 100px;
+}
+
+
+.tenders-info-about {
+   padding-top: 220px; 
+   background: url("/public/images/tenders.png") no-repeat;
+   padding-bottom: 144px;
+   padding-left: 391px; 
+}
+
+.tenders-info-about h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.tenders-info-about .info-about-desc {
+    margin-top: 18px;
+    margin-left: 22px;
+    width: 452px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.tenders-info-about .info-about-link {
+    margin-left: 146px;
+}
+
+.tenders-accreditation {
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F0F0FF;
+}
+
+.tenders-accreditation span {
+    color: #FFAF37;
+}
+
+.tenders-accreditation-title {
+    margin: 0 auto;
+    width: 986px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-accreditation-subtitle {
+    width: 1103px;
+    margin: 14px auto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-accreditation-box {
+    width: fit-content;
+    margin: 30px auto;
+    gap: 12px;
+}
+
+.tenders-accreditation p {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-accreditation p:first-child {
+    width: 354px;
+}
+
+.tenders-accreditation p:last-child {
+    width: 502px;
+}
+
+.tenders-recommendations {
+    padding-top: 100px;
+}
+
+.tenders-recommendations-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-recommendations-box {
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.tenders-recommendations-item {
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 37px;
+    padding-right: 42px;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.25);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.recommendations-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAF37;
+}
+
+.tenders-recommendations-item p {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-recommendations-item:first-child p {
+     width: 371px;
+}
+
+.tenders-recommendations-item:last-child p {
+    width: 779px;
+}
+
+.tenders-documentation {
+    padding-top: 40px;
+}
+
+.tenders-documentation-title {
+    width: 573px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-documentation-box {
+    margin-top: 20px;
+}
+
+.tenders-documentation-item {
+    gap: 13px;
+}
+
+.tenders-documentation-item p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+}
+
+.tenders-documentation-item:nth-child(1) p {
+    width: 268px;
+}
+
+.tenders-documentation-item:nth-child(2) p {
+    width: 411px;
+}
+
+.tenders-documentation-item:nth-child(3) p {
+    width: 280px;
+}
+
+.tenders-documentation-mail {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-documentation-mail span {
+    color: #FFAF37;
+}
