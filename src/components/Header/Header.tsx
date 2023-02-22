@@ -14,7 +14,7 @@ const Header = () => {
                             <ul className="nav-list d-f">
                                 <li className="nav-list-item"><Link to={"service"}>Service center</Link></li>
                                 <li className="nav-list-item"><a href="#">Shipping and payment</a></li>
-                                <li className="nav-list-item"><a href="#">Reviews</a></li>
+                                <li className="nav-list-item"><Link to={"catalog"}>Catalog</Link></li>
                                 <li className="nav-list-item"><a href="#">Personal Area</a></li>
                                 <li className="nav-list-item"><a href="#">About company</a></li>
                                 <li className="nav-list-item"><a href="#">Contacts</a></li>

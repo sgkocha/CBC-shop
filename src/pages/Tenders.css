@@ -189,3 +189,84 @@
 .tenders-documentation-mail span {
     color: #FFAF37;
 }
+
+.tenders-technical {
+    margin-top: 100px;
+}
+
+.tenders-technical-title {
+    width: 652px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.tenders-technical-box {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tenders-technical-item:nth-child(1) {
+    background: url("/public/images/technical1.png") no-repeat;
+    width: 687.47px;
+    height: 287px;
+}
+
+.tenders-technical-item:nth-child(2) {
+    background: url("/public/images/technical2.png") no-repeat;
+    width: 690px;
+    height: 253px;
+}
+
+.tenders-technical-item:nth-child(3) {
+    background: url("/public/images/technical3.png") no-repeat;
+    width: 685.48px;
+    height: 236px;
+}
+
+.tenders-technical-item:nth-child(4) {
+    background: url("/public/images/technical4.png") no-repeat;
+    width: 688px;
+    height: 270px;
+    margin-top: -35px;
+}
+
+.technical-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tenders-technical-item:nth-child(1) .technical-item-title {
+    width: 309px;
+    margin-top: 41px;
+    margin-left: 366.47px;
+    margin-right: 15px;
+}
+
+.tenders-technical-item:nth-child(2) .technical-item-title {
+    width: 180px;
+    margin-top: 41px;
+    margin-left: 24px;
+    color: #4A4D4A;
+}
+
+.tenders-technical-item:nth-child(3) .technical-item-title {
+    width: 205px;
+    margin-top: 126px;
+    margin-left: 22.48px;
+    color: #4A4D4A;
+}
+
+.tenders-technical-item:nth-child(4) .technical-item-title {
+    width: 306px;
+    margin-top: 143px;
+    margin-left: 372px;
+    margin-right: 10px;
+}
